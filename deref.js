@@ -1,8 +1,8 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  , Emitter = isBrowser ? require('emitter') : require('emitter-component')
-  , Uri = isBrowser ? require('json-schema-uri') : require('json-schema-uri-component')
+var isBrowser = require('forbeslindesay-is-browser')
+  , Emitter = isBrowser ? require('component-emitter') : require('emitter-component')
+  , Uri = isBrowser ? require('ericgj-json-schema-uri') : require('json-schema-uri-component')
 
 module.exports = Deref;
 
